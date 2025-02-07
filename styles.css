@@ -307,7 +307,6 @@ transform: scale(1);
     color: #f06449;
 }
 .modal__overlay--loading {
-    z-index: -1;
     background-color: #242424;
     position: absolute;
     font-size: 80px;
@@ -332,6 +331,7 @@ animation: spinner 750ms infinite linear;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
 }
 .modal__overlay--success {
 background-color: #4bb543;
@@ -347,6 +347,9 @@ padding: 20px;
     color: white;
     font-size: 36px;
     z-index: 100;
+}
+.modal__overlay--visible {
+    z-index: 1;
 }
 /*PROJECTS*/
 .section__title {
