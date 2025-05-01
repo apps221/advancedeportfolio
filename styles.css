@@ -429,7 +429,10 @@ padding: 20px;
 
 .project__img {
     width: 100%;
-    height: 700px;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
     transition: filter 450ms ease;
 }
 .project__wrapper {
@@ -575,6 +578,10 @@ footer {
     .modal__half {
         width: 100%;
     }
+    .project__img .project__wrapper--bg{
+        max-width: 90%;
+        height: 50%;
+        }
 }
 @media (max-width: 480px) {
     .title {
@@ -600,5 +607,8 @@ footer {
     }
     .modal__half {
         padding: 40px;
+    }
+    .project {
+        margin-bottom: 80px;
     }
 }
