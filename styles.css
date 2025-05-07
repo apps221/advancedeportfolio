@@ -594,7 +594,7 @@ footer {
         display: none;
     }
     .project__description--para {
-        display: none;
+       font-size: 8px;
     }
     .project__description {
         left: 0;
