@@ -583,6 +583,17 @@ footer {
         height: 50%;
         }
 }
+@media (max-width: 675px) {
+    .project__description--para {
+        font-size: 12px;
+     }
+     .project__description--sub-title {
+        font-size: 16px;
+    }
+    .project__description--title {
+        font-size: 24px;
+    }
+}
 @media (max-width: 480px) {
     .title {
         font-size: 54px;
