@@ -586,7 +586,7 @@ footer {
 @media (max-width: 675px) {
     .project__description {
         left: 0;
-        padding: 0;
+        padding: 2px;
         width: 100%;
         text-align: center;
     }
@@ -615,7 +615,7 @@ footer {
     }
     .project__description {
         left: 0;
-        padding: 0;
+        padding: 2px;
         width: 100%;
         text-align: center;
     }
@@ -632,7 +632,7 @@ footer {
 @media (max-width: 375px) {
     .project__description {
         left: 0;
-        padding: 0;
+        padding: 2px;
         width: 100%;
         text-align: center;
     }
