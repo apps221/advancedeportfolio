@@ -584,6 +584,12 @@ footer {
         }
 }
 @media (max-width: 675px) {
+    .project__description {
+        left: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
     .project__description--para {
         font-size: 12px;
      }
@@ -624,6 +630,12 @@ footer {
     }
 }
 @media (max-width: 375px) {
+    .project__description {
+        left: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
     .project__description--para {
         font-size: 8px;
      }
