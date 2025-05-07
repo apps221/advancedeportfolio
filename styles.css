@@ -612,3 +612,14 @@ footer {
         margin-bottom: 80px;
     }
 }
+@media (max-width: 375px) {
+    .project__description--para {
+        font-size: 8px;
+     }
+     .project__description--sub-title {
+        font-size: 12px;
+    }
+    .project__description--title {
+        font-size: 24px;
+    }
+}
